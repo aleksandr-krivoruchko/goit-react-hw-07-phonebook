@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Btn, FormStyle, Label, Input } from './FormStyle.styled';
-import { useAddContact } from '../../redux/persist';
+import { useAddContact } from '../../redux/slice';
 
 export function Form() {
   const [name, setName] = useState('');
